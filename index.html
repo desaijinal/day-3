@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+        <div class="row">
+            <div class="logo">
+                <a href="index.html"><h1>LOGO</h1></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="javascript:void(0);" class="active">HOME</a></li>
+                    <li><a href="javascript:void(0);">SERVICES</a></li>
+                    <li><a href="javascript:void(0);">SKILLS</a></li>
+                    <li><a href="javascript:void(0);">PORTFOLIO</a></li>
+                    <li><a href="javascript:void(0);">CONTACT</a></li>
+                  
+                </ul>
+            </nav>
+            <a href="javascript:void(0);" class="header-btn" id="cartbtn"> CART</a>
+        </div>
+    </div>
+</header>
+
+<!-- ----------------------------------------------------------- -->
+ 
+    <div class="input-container">
+        <h1>PRODUCT INFORMATION</h1>
+        <table align="center">
+          <tr>
+              <td>product-name:</td>
+              <td><input type="text" id="pname" placeholder="Enter name"></td>
+            </tr>
+            <tr>
+              <td>description:</td>
+              <td><input type="text" id="pdescription" placeholder="Enter description"></td>
+            </tr>
+              <tr>
+                  <td>catagory:</td>
+                  <td><input type="text" id="pcatagory" placeholder="Enter catagory"></td>
+              </tr>
+            <tr>
+              <td>price:</td>
+              <td><input type="text" id="pPrice" placeholder="Enter price"></td>
+            </tr>
+              <tr>
+                <td></td>
+                  <td><button id="btn">Add Product</button></td>
+              </tr>
+        </table>
+        </div>
+
+ <hr/>
+<!-- ----------------------------------------------- -->
+     
+  
+    <div id="cards-container" class="cards-container">
+         
+    </div>
+
+<!-- --------------------------------------------------- -->
+ 
+<div id="cart-container" style="display: none;">
+  <h2>Your Cart</h2>
+  <div id="cart-items-container"></div>
+  
+</div>    
+
+  <script src="script.js"></script>
+  
+ 
+</body>
+</html>
